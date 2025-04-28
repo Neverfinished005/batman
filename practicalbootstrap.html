@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department of Computer Science</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+    <h2 class="text-center">Department of Computer Science</h2>
+    <p class="text-center">itm sls university</p>
+
+    <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="faculty-tab" data-bs-toggle="tab" data-bs-target="#faculty" type="button" role="tab">Faculty</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="research-tab" data-bs-toggle="tab" data-bs-target="#research" type="button" role="tab">Research</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="courses-tab" data-bs-toggle="tab" data-bs-target="#courses" type="button" role="tab">Courses</button>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-3" id="myTabContent">
+        <div class="tab-pane fade show active" id="faculty" role="tabpanel">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="C:\Users\pranj\OneDrive\Desktop\th.jpeg" class="card-img-top" alt="Faculty 1">
+                        <div class="card-body">
+                            <h5 class="card-title">mrs.bregenza</h5>
+                            <p class="card-text">Artificial Intelligence, Machine Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="C:\Users\pranj\OneDrive\Desktop\j.png" class="card-img-top" alt="Faculty 2">
+                        <div class="card-body">
+                            <h5 class="card-title">mr.saurabhsharma</h5>
+                            <p class="card-text">Data Science, Database Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="research" role="tabpanel">
+            <h4>Research Areas</h4>
+            <ul>
+                <li>Computer Vision and Robotics</li>
+                <li>Cybersecurity and Cryptography</li>
+                <li>Cloud Computing and Big Data</li>
+                <li>Natural Language Processing</li>
+            </ul>
+
+                            </div>
+                            
+        </div>
+
+        <div class="tab-pane fade" id="courses" role="tabpanel">
+            <h4>Courses Offered</h4>
+            <div class="accordion" id="coursesAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            Introduction to Programming
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#coursesAccordion">
+                        <div class="accordion-body">
+                            Basics of programming using Python. Covers loops, functions, conditionals, and more.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            Data Structures and Algorithms
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#coursesAccordion">
+                        <div class="accordion-body">
+                            Introduction to data structures like arrays, linked lists, stacks, queues, trees, and graphs.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            Operating Systems
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#coursesAccordion">
+                        <div class="accordion-body">
+                            Concepts of processes, memory management, scheduling, and file systems.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-light text-center p-3 mt-5">
+    &copy; 2025 Department of Computer Science, itm sls University
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
